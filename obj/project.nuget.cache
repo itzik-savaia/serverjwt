@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NKfm/6flCK9+GAsndIM/fCFYwj3Vcyk+KmRjXONK4uZjDL1AJq8QucaZXxDVPbu/RJf0VVr//jSw4YcJ+K9TgA==",
+  "dgSpecHash": "2ugD6R+v1Jr152UycINBNTxAJRQ+Bd0+hwOmOlRcDtc+xVwLQRbM/xC1/BOBrWOwETxqpHOVJIpcmJtkURE2cw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Itzik\\Desktop\\work\\C#-JWT\\JWT\\JWT\\JWT.csproj",
+  "projectFilePath": "C:\\Users\\Itzik\\Desktop\\work\\C#-JWT\\JWT\\JWT\\serverjwt.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Itzik\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Itzik\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

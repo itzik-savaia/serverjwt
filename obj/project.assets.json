@@ -7514,9 +7514,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Itzik\\Desktop\\work\\C#-JWT\\JWT\\JWT\\JWT.csproj",
-      "projectName": "JWT",
-      "projectPath": "C:\\Users\\Itzik\\Desktop\\work\\C#-JWT\\JWT\\JWT\\JWT.csproj",
+      "projectUniqueName": "C:\\Users\\Itzik\\Desktop\\work\\C#-JWT\\JWT\\JWT\\serverjwt.csproj",
+      "projectName": "serverjwt",
+      "projectPath": "C:\\Users\\Itzik\\Desktop\\work\\C#-JWT\\JWT\\JWT\\serverjwt.csproj",
       "packagesPath": "C:\\Users\\Itzik\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Itzik\\Desktop\\work\\C#-JWT\\JWT\\JWT\\obj\\",
       "projectStyle": "PackageReference",

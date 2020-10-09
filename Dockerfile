@@ -2,21 +2,5 @@
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1-buster-slim AS base
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
-
-FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
-WORKDIR /src
-COPY ["JWT/JWT.csproj", "JWT/"]
-RUN dotnet restore "JWT/JWT.csproj"
-COPY . .
-WORKDIR "/src/JWT"
-RUN dotnet build "JWT.csproj" -c Release -o /app/build
-
-FROM build AS publish
-RUN dotnet publish "JWT.csproj" -c Release -o /app/publish
-
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "JWT.dll"]
+COPY .. 
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet serverjwt.dll
